@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/react-TourBlog/static/css/main.853a37a7.chunk.css",
+    "main.js": "/react-TourBlog/static/js/main.df74c9de.chunk.js",
+    "main.js.map": "/react-TourBlog/static/js/main.df74c9de.chunk.js.map",
+    "runtime-main.js": "/react-TourBlog/static/js/runtime-main.2e47b87f.js",
+    "runtime-main.js.map": "/react-TourBlog/static/js/runtime-main.2e47b87f.js.map",
+    "static/js/2.97de2411.chunk.js": "/react-TourBlog/static/js/2.97de2411.chunk.js",
+    "static/js/2.97de2411.chunk.js.map": "/react-TourBlog/static/js/2.97de2411.chunk.js.map",
+    "index.html": "/react-TourBlog/index.html",
+    "static/css/main.853a37a7.chunk.css.map": "/react-TourBlog/static/css/main.853a37a7.chunk.css.map",
+    "static/js/2.97de2411.chunk.js.LICENSE.txt": "/react-TourBlog/static/js/2.97de2411.chunk.js.LICENSE.txt",
+    "static/media/middlesec.css": "/react-TourBlog/static/media/Dark-landscape-photo.da88e119.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.2e47b87f.js",
+    "static/js/2.97de2411.chunk.js",
+    "static/css/main.853a37a7.chunk.css",
+    "static/js/main.df74c9de.chunk.js"
+  ]
+}
