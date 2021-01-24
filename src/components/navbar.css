@@ -1,0 +1,116 @@
+.navbar{
+    position: fixed;
+    box-sizing: border-box;
+    background-color: black;
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    z-index: 1;
+}
+.title{
+    display: flex;
+    justify-self: start;
+    align-items: center;
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+    margin-top: 10px;
+    margin-left: 10vw;
+    font-size: x-large;
+    font-weight: 600;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.menu-off{
+    z-index: 1;
+    display: flex;
+    position: relative;
+}
+.links{
+    text-decoration: none;
+    color: white;
+    font-size: 1.1rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+.list{
+    list-style: none;
+    margin-right: 4vw;
+}
+.list button{
+    cursor: pointer;
+    background-color: transparent;
+    outline: none;
+    color: white;
+    border: 1px solid rgb(255, 255, 255);
+    margin-top: -10px;
+    padding: 5px 16px 5px 16px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+.menu-on{
+    display: flex;
+    position: relative;
+}
+.menu{
+    display: none;
+}
+@media screen and (max-width:650px){
+    .menu{
+        display: inline-block;
+        position: relative;
+        top:10px;
+        right: 7vw;
+    }
+    .menu button{
+        cursor: pointer;
+        outline: none;
+        border: 1px solid white;
+        background-color: transparent;
+        color: white;
+        padding: 0px 16px 2px 16px;
+        font-size: x-large;
+    }
+    .menu-off{
+        display: none;
+    }
+    .menu-on{
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        position: absolute;
+        top: 34px;
+        background-color: rgb(32, 32, 32);
+    }
+    .links{
+        text-decoration: none;
+        color: white;
+        font-size: 1.1rem;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+    }
+    .list{
+        z-index: 1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 80px;
+        width: 100%;
+        list-style: none;
+    }
+    .list button{
+        font-size: 1rem;
+        background-color: transparent;
+        outline: none;
+        color: white;
+        border: 1px solid rgb(255, 255, 255);
+        padding: 10px 20px 10px 20px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+    }
+    .list:hover{
+        background-color: rgba(153, 148, 141, 0.24);
+    }
+    .links:hover{
+        color: rgba(255, 255, 255, 0.527);
+    }
+}
