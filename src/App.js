@@ -10,8 +10,8 @@ function App() {
     <>
     <Router>
          <Navbar/>
-         <Switch>
          <Route path='/' exact component={Home} />
+         <Switch>
          <Route path='/Sceneries' component={Sceneries} />
          </Switch>
     </Router>
