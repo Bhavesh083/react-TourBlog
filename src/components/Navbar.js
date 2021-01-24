@@ -25,10 +25,10 @@ return (
                 <Link className='links' to='/'>Home</Link>
             </li>
             <li className='list' onClick={()=>showMenu()}>
-                <Link className='links' to='/sceneries'>Sceneries</Link>
+                <Link className='links' to='/Sceneries'>Sceneries</Link>
             </li>
-            <li className='list' onClick={()=>showMenu()}>
-                <Link to='/sign-up'><button>SIGN UP</button></Link>
+            <li className='list' onClick={()=>showMenu()}> 
+                <Link to='/'><button>SIGN UP</button></Link>
             </li>
         </ul>
     </nav>    
