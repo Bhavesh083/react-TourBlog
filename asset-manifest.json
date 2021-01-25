@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/react-TourBlog/static/css/main.ee3a6931.chunk.css",
-    "main.js": "/react-TourBlog/static/js/main.b2eaf703.chunk.js",
-    "main.js.map": "/react-TourBlog/static/js/main.b2eaf703.chunk.js.map",
+    "main.js": "/react-TourBlog/static/js/main.c5660870.chunk.js",
+    "main.js.map": "/react-TourBlog/static/js/main.c5660870.chunk.js.map",
     "runtime-main.js": "/react-TourBlog/static/js/runtime-main.2e47b87f.js",
     "runtime-main.js.map": "/react-TourBlog/static/js/runtime-main.2e47b87f.js.map",
     "static/js/2.97de2411.chunk.js": "/react-TourBlog/static/js/2.97de2411.chunk.js",
@@ -16,6 +16,6 @@
     "static/js/runtime-main.2e47b87f.js",
     "static/js/2.97de2411.chunk.js",
     "static/css/main.ee3a6931.chunk.css",
-    "static/js/main.b2eaf703.chunk.js"
+    "static/js/main.c5660870.chunk.js"
   ]
 }
