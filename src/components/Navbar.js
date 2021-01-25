@@ -28,7 +28,7 @@ return (
                 <Link className='links' to='/Sceneries'>Sceneries</Link>
             </li>
             <li className='list' onClick={()=>showMenu()}> 
-                <Link to='/'><button>SIGN UP</button></Link>
+                <Link to='/Signup'><button>SIGN UP</button></Link>
             </li>
         </ul>
     </nav>    

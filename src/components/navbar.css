@@ -64,7 +64,7 @@
     .menu button{
         cursor: pointer;
         outline: none;
-        border: 1px solid white;
+        border: 0.1px solid white;
         background-color: transparent;
         color: white;
         padding: 0px 16px 2px 16px;
