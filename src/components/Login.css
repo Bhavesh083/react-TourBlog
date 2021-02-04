@@ -1,20 +1,35 @@
 .Signupform{
     display: flex;
     flex-direction: column;
-    color: white;
-    background-color: rgba(0, 0, 0, 0.699);
     justify-content: center;
     align-items: center;
-    width: 300px;
-    height: 60vh;
+    background-color: rgb(255, 255, 255);
     padding: 1rem;
-    margin: 0 auto;
+    padding-bottom: 0;
     border-radius: 6px;
+    height: 300px;
 }
-.Signupform label{
-    margin-top: 10px;
-    margin-bottom: 10px;
+.Signupform h2{
+    color: rgb(65, 65, 153);
+    font-family: Arial, Helvetica, sans-serif;
 }
 .Signupform button{
+    color: white;
+    background-color: rgb(0, 0, 255);
+    padding: 4px 15px 4px 15px;
     margin-top: 10px;
+   border: none;
+    outline: none;
+}
+input{
+    background-color: rgb(250, 246, 246);
+    border: 2px solid rgb(102, 101, 101);
+    outline: none;
+    border-radius: 4px;
+    width: 300px;
+    height: 2rem;
+    margin-bottom: 7px;
+}
+input:focus{
+    border: 2px solid rgb(128, 126, 126);
 }

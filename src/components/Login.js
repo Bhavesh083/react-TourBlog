@@ -5,12 +5,16 @@ function Login() {
     return(
         <>
                <form className='Signupform'>
-                   <label>Email :</label>
-                   <input placeholder='@xxx.com' type='email' />
-                   <label>Password :</label>
-                   <input  type='password' />
-                   <label>Confirm Password :</label>
-                   <input type='password' />
+                   <h2>Tour Spots</h2>
+                   <div className='email'>
+                   <input placeholder='Mobile number or email address' type='email' />
+                   </div>
+                   <div className='pswrd'>
+                   <input placeholder='Password' type='password' />
+                   </div>
+                   <div className='cpswrd'>
+                   <input placeholder='Confirm Password' type='password' />
+                   </div>
                    <button>SignUp</button>
                </form>
         </>
